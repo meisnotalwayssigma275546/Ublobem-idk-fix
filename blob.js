@@ -1,7 +1,7 @@
 /// urun.js
 document.addEventListener("keydown", function (e) {
 	if (e.key == "~" && e.ctrlKey) {
-		var t = window.open("", "_blank", "width=500,height=300");
+		var t = window.open("", ".gov", "width=500,height=300");
 		var e = t.document.createElement("iframe");
 		(e.src = "//ustuff.github.io/uRun/popup.html"),
 			(e.style.cssText = "width:100%; height:100%; border:none;"),
